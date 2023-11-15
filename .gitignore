@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Archivo personalizado a ignorar
+aplicarEnProject.txt
