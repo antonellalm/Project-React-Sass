@@ -1,8 +1,9 @@
 import "./Hero.scss";
-import Wrapper from "../wrapper/wrapper";
+
 import Img1 from "../../assets/hero-1.png";
 import Img2 from "../../assets/hero-2.png";
 import Img3 from "../../assets/hero-3.png";
+import Wrapper from "../wrapper/Wrapper";
 export default function Hero() {
   return (
     <section className="hero">
