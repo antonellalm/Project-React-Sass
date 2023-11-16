@@ -1,5 +1,5 @@
 import "./Navbar.scss";
-import Wrapper from "../wrapper/wrapper";
+import Wrapper from "../wrapper/Wrapper";
 import Logo from "../../assets/logo.svg";
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";
