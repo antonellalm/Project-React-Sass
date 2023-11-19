@@ -13,6 +13,17 @@
       grid-template-columns: 1fr;
     }
   }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    margin-top: 4rem;
+  }
+
   &__text {
     display: flex;
     align-items: flex-start;
@@ -53,8 +64,40 @@
   .img-2 {
     position: absolute;
     width: 60%;
-    right: 60%;
+    right: 0;
     bottom: -6%;
     z-index: -1;
+  }
+
+  &__partners {
+    position: absolute;
+    width: 12rem;
+    height: 12rem;
+    background-color: #fff;
+    border-radius: 50%;
+    top: -10%;
+    right: 10%;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    box-shadow: 0 0 40px 5px rgb(132, 132, 132, 0.3);
+
+    @include respond(phone) {
+      display: none;
+    }
+  }
+
+  &__users {
+    position: absolute;
+    background-color: #fff;
+    padding: 3rem;
+    text-align: center;
+    border-radius: 1rem;
+    bottom: -8%;
+    box-shadow: 0 0 40px 5px rgb(132, 132, 132, 0.3);
+
+    @include respond(phone) {
+      display: none;
+    }
   }
 }

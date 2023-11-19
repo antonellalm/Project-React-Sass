@@ -1,0 +1,21 @@
+@import "../../styles/mixins.scss";
+
+.plans {
+  padding-block: 4rem;
+
+  &__container {
+    margin-top: 3.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.1rem;
+
+    @include respond(tab-port) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
