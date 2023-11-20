@@ -11,7 +11,7 @@ export default function PlanSection() {
       <Wrapper>
         <h3>Choose a plan for your budget</h3>
 
-        <div className="plans_container">
+        <div className="plans__container">
           <div className="plans__card">
             <div className="plans__card-left">
               <div className="plans__card-feature">
