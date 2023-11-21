@@ -5,6 +5,8 @@ import FeaturesSection from "./components/featuresSection/FeaturesSection";
 import PaymentSection from "./components/paymentSection/PaymentSection";
 import CtaSection from "./components/ctaSection/CtaSection";
 import PlanSection from "./components/planSection/PlanSection";
+import BlogSection from "./components/blogSection/BlogSection";
+import Footer from "./components/footer/Footer";
 function App() {
   return (
     <>
@@ -15,6 +17,8 @@ function App() {
       <PaymentSection />
       <CtaSection />
       <PlanSection />
+      <BlogSection />
+      <Footer />
     </>
   );
 }
